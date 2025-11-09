@@ -37,3 +37,43 @@
   font-weight: 800;
   font-style: normal;
 }
+
+
+.navbar{
+  background: rgba(255, 255, 255, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border:1px solid #161AF2;
+}
+
+
+.heroSection{
+    background-image: url("./Assets/Blockchain-Cryptocurrency.jpeg");
+    max-width: 100%;
+    min-height: 100vh;
+   
+    padding-top: 8px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+
+.rightHero{
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 1rem;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+ 
+
+   /* margin-top: -420px;
+    margin-left: 870px; */
+   
+}

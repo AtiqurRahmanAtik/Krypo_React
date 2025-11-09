@@ -1,21 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { Route, Routes } from 'react-router'
 import './App.css'
+
+import MainLayout from './Components/MainLayout'
+import Home from './Components/Home'
+import AboutUs from './Components/AboutUs'
+import NotFound from './Components/NotFound'
 
 function App() {
 
 
   return (
     <>
-    
-      <h1 className='text-2xl text-center my-6 text-red-500 font-bold'>Vite + React</h1>
-    
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
 
-      <button class="btn btn-primary text-center mx-auto">Button</button>
+
+
+    <Routes>
+  <Route path='/' element={<MainLayout/>} >
+    
+    <Route index element={<Home/>}></Route>
+    <Route path='/aboutUs' element={<AboutUs/>}></Route>
+
+
+
+   
+
+</Route>
+
+ {/* NotFound Page */}
+    <Route path='*' element={<NotFound/>}></Route>
+
+</Routes>
+
 
     </>
   )
