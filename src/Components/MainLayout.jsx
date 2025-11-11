@@ -16,7 +16,7 @@ const MainLayout = () => {
           </header>
 
 
-            <main> <Outlet/> </main>
+            <main className='bg-[#eef4ff]'> <Outlet/> </main>
             
 
           <footer>   <Footer/> </footer>
