@@ -5,7 +5,7 @@ const FounderMengTeam = () => {
     return (
         <div className='my-18 mt-40'>
 
-            <div className='flex gap-2 items-center lg:relative'>
+            <div className='lg:flex gap-2 items-center lg:relative'>
             
               <div class="lg:relative">
 
@@ -33,11 +33,11 @@ const FounderMengTeam = () => {
             
         {/* <!-- right div --> */}
         <div >
-            <h1 class="text-2xl mb-28 ml-40 font-bold text-center text-black">Founder And Management Team</h1>
+            <h1 class="  text-2xl lg:mb-28 lg:ml-40 font-bold text-center text-black">Founder And Management Team</h1>
 
 
             {/* <!-- management teams images --> */}
-            <div class="flex gap-2 justify-center items-center lg:absolute bottom-10 left-84"> 
+            <div class="hidden lg:flex gap-2 justify-center items-center lg:absolute bottom-10 left-84"> 
 
                 <div  class="managementHide">
                     <img className='rounded-2xl' src="./Assets/leftDescribe (3).png" alt="founder"/>

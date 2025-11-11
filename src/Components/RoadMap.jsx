@@ -5,11 +5,11 @@ const RoadMap = () => {
 
     return (
         <div className="container mx-auto my-14 lg:relative">
-               <h1 class="text-3xl mx-auto lg:max-w-[900px] font-bold text-black text-center border-b py-10 ">Roadmap</h1>
+               <h1 class="text-3xl mx-auto lg:max-w-[900px] font-bold text-black text-center lg:border-b py-10 ">Roadmap</h1>
 
 
 
-            <div class="roadParent  mx-auto lg:max-w-[900px] flex justify-between mt-6">
+            <div class="roadParent hidden mx-auto lg:max-w-[900px]  lg:flex justify-between mt-6">
                 <div>
                 <img className="lg:absolute top-26 left-70" src="/public/Assets/arrowd.png" alt="a"/>
                 </div>
@@ -33,7 +33,7 @@ const RoadMap = () => {
                <div className="lg:relative ">
 
                 {/* Road1 */}
-        <div class="flex gap-2 justify-center mt-10">
+        <div class="lg:flex gap-2 justify-center mt-10">
 
               <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
                 <h1 class="text-white text-xl font-semibold ">Quarter 1</h1>
@@ -60,7 +60,7 @@ const RoadMap = () => {
 
 
             {/* Right 2 */}
-           <div class="flex gap-2 justify-center lg:absolute lg:top-18 lg:left-47">
+           <div class="lg:flex gap-2 justify-center lg:absolute lg:top-18 lg:left-47">
 
              <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
             <ul className="ml-2  list-image-[url('/Assets/Star%201.png')] list-disc pl-5 text-start  space-y-4">

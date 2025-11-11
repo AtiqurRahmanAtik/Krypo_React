@@ -68,7 +68,7 @@ const CollabrationCompany = () => {
 
   <h1 class="text-3xl font-bold text-black text-center my-20"> Collaboration with Other Companies</h1>
 
-            <div className="ml-20 grid gap-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+            <div className="lg:ml-20 grid gap-2 grid-cols-3 md:grid-cols-3 lg:grid-cols-5">
                 {
                     CollabrationCompany?.map((item)=> (
                          <div className="border-b border-b-white border-r border-r-white">

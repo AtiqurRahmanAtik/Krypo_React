@@ -4,12 +4,12 @@ const NewArticels = () => {
 
 
     return (
-        <div className="mt-16 mx-auto max-w-[75%] bg-[url('/Assets/Frame%20001.png')] bg-cover bg-center bg-no-repeat py-16 rounded-2xl">
+        <div className="mt-16 mx-auto lg:max-w-[75%] bg-[url('/Assets/Frame%20001.png')] bg-cover bg-center bg-no-repeat py-16 rounded-2xl">
             
 
                    <h1 class="text-3xl font-bold text-black lg:ml-22">News And Articles</h1>
 
-              <div class="flex gap-4 justify-center mt-8 ">
+              <div class="lg:flex gap-4 justify-center mt-8 ">
                 {/* <!-- leftArticles --> */}
           
                 <div className="border border-[#161af2] p-2 rounded-2xl">
@@ -26,14 +26,14 @@ const NewArticels = () => {
 
 
             {/* <!-- rightArticles --> */}
-            <div class=" max-w-96 space-y-3">
-                <div className="border border-[#161af2] p-4 rounded-2xl min-w-96">
+            <div class="sm:space-y-5 lg:max-w-96 space-y-3">
+                <div className=" border  border-[#161af2] p-4 rounded-2xl lg:min-w-96">
 
                     <h1 className="text-2xl font-semibold">UX review presentations</h1>
                     <p> <span className="text-black">may 2, 2024 /</span> <span >No Cements</span></p>
                 </div>
 
-                 <div className="border border-[#161af2] p-4 rounded-2xl min-w-96">
+                 <div className="border  border-[#161af2] p-4 rounded-2xl min-w-96">
 
                     <h1 className="text-2xl font-semibold">UX review presentations</h1>
                     <p> <span className="text-black">may 2, 2024 /</span> <span >No Cements</span></p>

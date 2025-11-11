@@ -38,7 +38,7 @@ const BlockChainService = () => {
 
         
           <div class="flex gap-1 mt-6 ">
-        <div className="ml-46">
+        <div className="lg:ml-46">
             <img src="./Assets/Frame 32.png" alt="left"/>
         </div>
 
@@ -58,7 +58,7 @@ const BlockChainService = () => {
 
 
                 {/* right */}
-                <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
+                <div className="hidden grid  gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:inline-flex ">
                     {
                         BlockChainService?.map((item)=>  <div key={item.id} className="bg-[#eef4ff] p-4 rounded-2xl ">
                 <img src={item.img} alt="icon1"/>

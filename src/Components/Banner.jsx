@@ -34,7 +34,7 @@ const Banner = () => {
 
             {/* right  */}
 
-            <div className="rightHero max-w-[420px] max-h-[150px] border border-[#7E61FF] rounded-2xl p-5 lg:ml-[820px] lg:-mt-18">
+            <div className="rightHero mx-auto  max-w-[420px] max-h-[150px] border border-[#7E61FF] rounded-2xl p-5 lg:ml-[820px] lg:-mt-18">
                  <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque id nihil assumenda consequuntur harum, veritatis consectetur doloribus accusantium velit ipsum.</p>
             </div>
              

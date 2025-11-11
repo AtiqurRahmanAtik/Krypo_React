@@ -9,7 +9,7 @@ const IndustriesServe = () => {
 
 <div>
 
-<div className="max-w-3/4 mx-auto mt-14 grid grid-cols-4 grid-rows-5 gap-4">
+<div className=" lg:max-w-3/4 space-y-4 mx-auto mt-14 lg:grid grid-cols-4 grid-rows-5 gap-4">
         <div className="col-span-2 row-span-4">
             <img className="lg:min-h-[540px]" src="/public/Assets/grid1.png" alt="img1" />
         </div>

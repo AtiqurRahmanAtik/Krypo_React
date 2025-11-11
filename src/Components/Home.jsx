@@ -10,6 +10,8 @@ import FounderMengTeam from './FounderMengTeam';
 import PopularBlockChain from './PopularBlockChain';
 import NewArticels from './NewArticels';
 import RoadMap from './RoadMap';
+import JoinKrypo from './JoinKrypo';
+import OurCommunity from './OurCommunity';
 
 const Home = () => {
 
@@ -57,6 +59,16 @@ const Home = () => {
 
                 <section>
                     <NewArticels/>
+                </section>
+
+
+                <section>
+                  <OurCommunity/>
+                </section>
+
+
+                <section>
+                  <JoinKrypo/>
                 </section>
 
             

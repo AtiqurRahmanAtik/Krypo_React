@@ -7,7 +7,7 @@ const SingleWhat = ({item}) => {
 
     return (
         <div>
-                <div  className="card bg-base-100 w-72 shadow-sm">
+                <div  className="card bg-base-100 lg:w-72 shadow-sm">
   <figure>
     <img
     className='p-4'
@@ -15,7 +15,7 @@ const SingleWhat = ({item}) => {
       alt="Shoes" />
   </figure>
   <div className="card-body">
-    <h2 className="card-title">{title}</h2>
+    <h2 className="card-title ">{title}</h2>
     <p>{describe}</p>
 
     

@@ -42,7 +42,7 @@ const WhatDo = () => {
 
             {/* show card here */}
 
-       <div className='flex gap-4 my-7 justify-center'>
+       <div className=' flex flex-col gap-4  lg:flex-row my-7 justify-center'>
          {
             WhatDoData?.map((item)=> <SingleWhat key={item.id} item={item}></SingleWhat>)
         }
@@ -52,7 +52,7 @@ const WhatDo = () => {
 
 {/* 
           <!-- Projects Completed --> */}
-            <div class="flex gap-20 my-14 justify-center">
+            <div class="grid grid-cols-2  gap-20 lg:grid-cols-4 my-14 lg:max-w-[920px] mx-auto">
                 <div className='text-center'>
                     <h1    className='text-6xl font-extrabold text-[#161AF2] '>15+</h1>
                     <p class="roboto">Years on the market</p>
