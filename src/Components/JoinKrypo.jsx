@@ -4,7 +4,7 @@ const JoinKrypo = () => {
 
 
     return (
-        <div className='container mx-auto my-11 '>
+        <div className='max-w-[540px] lg:container mx-auto my-11 '>
             
 
             <div className='lg:flex gap-4 items-center justify-center'>

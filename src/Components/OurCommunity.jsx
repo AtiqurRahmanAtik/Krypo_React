@@ -4,18 +4,18 @@ const OurCommunity = () => {
 
   return (
 
-    <div className="container mx-auto my-11 bg-[radial-gradient(circle,rgba(126,97,255,1)_32%,rgba(0,0,0,0.94)_55%)] relative">
+    <div className="max-w-[540px]  lg:container mx-auto my-11 bg-[radial-gradient(circle,rgba(126,97,255,1)_32%,rgba(0,0,0,0.94)_55%)] relative">
 
 
         {/* Image */}
            <div class="brandImages">
 
-            <div className='absolute top-46 left-110'>
+            <div className='absolute top-46 right-24  lg:left-110'>
 
                 <img className="b1 max-w-24" src="./Assets/Bitcoin-1.png" alt="b"/>
             </div>
 
-            <div className='absolute top-58 left-84'>
+            <div className='absolute left-14 top-58 lg:left-84'>
                 <img className="b2  max-w-24" src="./Assets/Bitcoin-1.png" alt="b"/>
             </div>
 
@@ -23,7 +23,7 @@ const OurCommunity = () => {
                 <img className="b3  lg:min-w-22" src="./Assets/Ellipse 15.png" alt="b"/>
             </div>
 
-            <div className='absolute top-42 left-50'>
+            <div className='absolute top-46 lg:top-42 lg:left-50'>
                 <img className="b4  lg:min-w-22" src="./Assets/EllipseNew.png" alt="b"/>
             </div>
 
@@ -36,11 +36,11 @@ const OurCommunity = () => {
             </div>  */}
 
 
-            <div className='absolute '>
-                <button className="s1 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl absolute top-64 left-48 -rotate-20">Facebook</button>
+            <div className=' absolute top-64 lg:left-48 -rotate-20'>
+                <button className="s1 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Facebook</button>
             </div>
 
-            <div className='absolute top-62 left-144 rotate-25'>
+            <div className='absolute top-62 right-6 lg:left-144 rotate-25'>
                 <button className="s2 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Instragram</button>
             </div>
 
@@ -48,7 +48,7 @@ const OurCommunity = () => {
                 <button className="s3 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">YouTube</button>
             </div>
             
-            <div className='absolute top-44 left-74 -rotate-15'>
+            <div className='absolute left-16 top-44 lg:left-74 -rotate-15'>
                 <button className="s4 lg:min-w-40 border border-[#161af2] py-2 bg-[#161af2] text-white rounded-2xl">Telegram</button>
             </div>
             
@@ -56,11 +56,11 @@ const OurCommunity = () => {
                 <button className="s5 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Medium</button>
             </div>
             
-            <div className='absolute top-68 left-106'>
+            <div className='absolute top-68 right-28 lg:left-106'>
                 <button className="s6 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Discord</button>
             </div>
 
-            <div className='absolute top-40 left-134'>
+            <div className='absolute top-40 right-16 lg:left-134'>
                 <button className="s7 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Twitter</button>
             </div>
             
@@ -144,29 +144,30 @@ const OurCommunity = () => {
 
       {/* Right */}
 
-            <div className="ourCommunityRight max-w-md space-y-4">
+            <div className=" max-w-md space-y-4">
 
 
 
-            <h1 className="text-white  text-xl font-semibold mt-8">What Happens the next depends on what you're looking to do !</h1>
+            <h1 className="text-white ml-4 sm:ml-0  text-xl font-semibold mt-8">What Happens the next depends on what you're looking to do !</h1>
 
 
 
-            <div className="Parent lg:relative space-y-6 pl-8 border-l border-white mt-16">
-                <div>
-                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold lg:absolute -top-8 -left-4 z-10">01</p>
+            <div className="Parent py-10 lg:py-0 relative space-y-6  lg:pl-8 lg:border-l border-white mt-16">
 
-                    <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
-                </div>
-
-                <div>
-                    <p className="border border-white bg-[#7e61ff] rounded-full min-w-8 text-center text-white p-1 font-semibold lg:absolute top-14 -left-4 ">02</p>
+                <div className='ml-20 lg:ml-0'>
+                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold absolute left-4 lg:-top-8 lg:-left-4 z-10">01</p>
 
                     <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
                 </div>
 
-                <div>
-                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold  lg:absolute top-42 -left-4">03</p>
+                <div className='ml-20 lg:ml-0'>
+                    <p className="border border-white lg:bg-[#7e61ff] rounded-full min-w-8 text-center text-white p-1 font-semibold absolute left-4 lg:top-14 lg:-left-4 ">02</p>
+
+                    <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                </div>
+
+                <div className='ml-20 lg:ml-0'>
+                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold  absolute left-4 lg:top-42 lg:-left-4">03</p>
 
                     <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
                 </div>

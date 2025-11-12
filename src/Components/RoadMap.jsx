@@ -30,27 +30,27 @@ const RoadMap = () => {
             </div>
 
 
-               <div className="lg:relative ">
+               <div className="relative ">
 
                 {/* Road1 */}
-        <div class="lg:flex gap-2 justify-center mt-10">
+        <div class="lg:flex gap-2  justify-center mt-10">
 
-              <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
+              <div class="max-w-[540px] min-h-64 ml-4  lg:ml-0 lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
                 <h1 class="text-white text-xl font-semibold ">Quarter 1</h1>
                 <p class="text-white"> Foundation and Planing </p>
             </div>
 
-               <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
+               <div class="max-w-[540px] min-h-64 ml-4 mt-28 lg:mt-0  lg:ml-0  lg:min-w-[220px] lg:min-h-[270px]  text-center bg-black rounded-xl">
                 <h1 class="text-white  text-xl font-semibold">Quarter 1</h1>
                 <p class="text-white"> Foundation and Planing </p>
             </div>
 
-   <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
+   <div class="max-w-[540px] min-h-64 ml-4 mt-28 lg:mt-0  lg:ml-0 lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
                 <h1 class="text-white  text-xl font-semibold">Quarter 1</h1>
                 <p class="text-white"> Foundation and Planing </p>
             </div>
 
-                   <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
+                   <div class="max-w-[540px] min-h-64 ml-4 mt-28 lg:mt-0  lg:ml-0 lg:min-w-[220px] lg:min-h-[270px] text-center bg-black rounded-xl">
                 <h1 class="text-white  text-xl font-semibold">Quarter 1</h1>
                 <p class="text-white"> Foundation and Planing </p>
             </div>
@@ -59,12 +59,14 @@ const RoadMap = () => {
 
 
 
+
             {/* Right 2 */}
-           <div class="lg:flex gap-2 justify-center lg:absolute lg:top-18 lg:left-47">
+           <div class="lg:flex gap-2 justify-center items-center absolute  top-18 lg:left-47">
 
-             <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
+             <div class=" min-w-[540px] min-h-64 ml-4  lg:ml-0    lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
+
             <ul className="ml-2  list-image-[url('/Assets/Star%201.png')] list-disc pl-5 text-start  space-y-4">
-  <li className="text-black text-sm mt-6">Lorem Ipsum is simply dummy</li>
+  <li className="text-black text-sm pt-6 lg:pt-6">Lorem Ipsum is simply dummy</li>
   <li className="text-black text-sm">text of the printing and</li>
   <li className="text-black text-sm">typesetting industry. Lorem</li>
   <li className="text-black text-sm">Ipsum has been the industry's</li>
@@ -74,9 +76,10 @@ const RoadMap = () => {
   
             </div>
 
-            <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
+            <div class="  min-w-[540px] min-h-64 ml-4 mt-30 lg:mt-0 lg:ml-0   lg:min-w-[220px] lg:min-h-[270px]  text-center bg-white rounded-xl">
+
             <ul className="ml-2  list-image-[url('/Assets/Star%201.png')] list-disc pl-5 text-start  space-y-4">
-  <li className="text-black text-sm mt-6">Lorem Ipsum is simply dummy</li>
+  <li className="text-black text-sm pt-6 lg:pt-6">Lorem Ipsum is simply dummy</li>
   <li className="text-black text-sm">text of the printing and</li>
   <li className="text-black text-sm">typesetting industry. Lorem</li>
   <li className="text-black text-sm">Ipsum has been the industry's</li>
@@ -86,9 +89,10 @@ const RoadMap = () => {
   
             </div>
 
-              <div class="lg:min-w-[220px] lg:max-h-[220px] text-center bg-white rounded-xl">
+              <div class=" min-w-[540px] min-h-64 ml-4 mt-30 lg:mt-0  lg:ml-0    lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
+
             <ul className="ml-2  list-image-[url('/Assets/Star%201.png')] list-disc pl-5 text-start  space-y-4">
-  <li className="text-black text-sm mt-6">Lorem Ipsum is simply dummy</li>
+  <li className="text-black text-sm pt-6 lg:pt-6">Lorem Ipsum is simply dummy</li>
   <li className="text-black text-sm">text of the printing and</li>
   <li className="text-black text-sm">typesetting industry. Lorem</li>
   <li className="text-black text-sm">Ipsum has been the industry's</li>
@@ -97,9 +101,9 @@ const RoadMap = () => {
   
             </div>
 
-           <div class="lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
+           <div class=" min-w-[540px] min-h-64  mt-30 lg:mt-0 ml-4  lg:ml-0    lg:min-w-[220px] lg:min-h-[270px] text-center bg-white rounded-xl">
             <ul className="ml-2  list-image-[url('/Assets/Star%201.png')] list-disc pl-5 text-start  space-y-4">
-  <li className="text-black text-sm mt-6">Lorem Ipsum is simply dummy</li>
+  <li className="text-black text-sm pt-6 lg:pt-6">Lorem Ipsum is simply dummy</li>
   <li className="text-black text-sm">text of the printing and</li>
   <li className="text-black text-sm">typesetting industry. Lorem</li>
   <li className="text-black text-sm">Ipsum has been the industry's</li>

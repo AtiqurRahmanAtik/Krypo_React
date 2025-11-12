@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
     
     return (
-        <footer>
+        <footer className='max-w-[540px] lg:container mx-auto'>
     {/* <!-- MainFooterDiv --> */}
-    <div class="footerParent flex gap-3 flex-col  lg:flex-row justify-around my-14 pb-10">
+    <div class=" ml-8 flex gap-3 flex-col lg:ml-0 lg:flex-row justify-around my-14 pb-10">
 
         <div className='space-y-2'>
             <h1 class="roboto_bold font-bold ">Say Hello.</h1>

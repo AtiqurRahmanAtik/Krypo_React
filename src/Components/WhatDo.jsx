@@ -30,7 +30,7 @@ const WhatDo = () => {
 
 
     return (
-        <div>
+        <div className='max-w-[540px] lg:container mx-auto'>
             
        <div className='text-center mt-18'>
          <h2 class="">What we Do</h2>

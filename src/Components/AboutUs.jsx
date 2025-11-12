@@ -5,7 +5,7 @@ const AboutUs = () => {
 
     return (
         <div>
-                <h1 className='text-2xl font-bold text-center my-4 '>About Us Componets</h1>
+                <h1 className='text-2xl font-bold text-blue-600 text-center my-11 '>About Us Componets</h1>
         </div>
     );
 };

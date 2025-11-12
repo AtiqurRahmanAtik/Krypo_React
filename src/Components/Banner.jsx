@@ -3,7 +3,7 @@
 const Banner = () => {
 
     return (
-        <div className="container mx-auto mt-20">
+        <div className="max-w-[540px] lg:container mx-auto mt-20">
             
             <div>
                    <h1 class=" text-7xl font-bold text-black">Building Trust , <br />One block at a <br /> Time</h1>
@@ -34,7 +34,7 @@ const Banner = () => {
 
             {/* right  */}
 
-            <div className="rightHero mx-auto  max-w-[420px] max-h-[150px] border border-[#7E61FF] rounded-2xl p-5 lg:ml-[820px] lg:-mt-18">
+            <div className="rightHero mx-auto   max-w-[420px] max-h-[150px] border border-[#7E61FF] rounded-2xl p-5 lg:ml-[820px] lg:-mt-18">
                  <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque id nihil assumenda consequuntur harum, veritatis consectetur doloribus accusantium velit ipsum.</p>
             </div>
              

@@ -1,13 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import { NavLink } from "react-router";
+import { FaPlay } from "react-icons/fa";
 
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="container mx-auto mt-4 px-4 py-3 
+    <div className="max-w-[540px] lg:container mx-auto mt-4 px-4 py-3 
              rounded-full border border-[#161AF2] 
              bg-[rgba(255,255,255,0.2)] 
              backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
@@ -64,7 +65,12 @@ const NavigationBar = () => {
 
         {/* Right: Language + Button (hidden on mobile) */}
         <div className="hidden md:flex gap-4 items-center">
+          
+          <div className="flex gap-2 items-center ">
           <p className="text-black">English</p>
+            <FaPlay className="rotate-90"></FaPlay>
+          </div>
+
           <button className="py-2 px-4 bg-[#161AF2] text-white rounded-lg hover:bg-[#0d0fa7] transition">
             Get a Quote
           </button>
@@ -75,7 +81,10 @@ const NavigationBar = () => {
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden focus:outline-none"
         >
-          {isOpen ? (
+          {isOpen ?  (
+
+            
+
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6 text-[#161AF2]"
@@ -85,6 +94,9 @@ const NavigationBar = () => {
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
+
+
+
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +150,7 @@ const NavigationBar = () => {
             Contact Us
           </NavLink>
 
-          <button className="w-full py-2 bg-[#161AF2] text-white rounded-lg mt-3">
+          <button className="px-4 py-2 bg-[#161AF2] text-white rounded-lg mt-3">
             Get a Quote
           </button>
         </div>

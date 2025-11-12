@@ -1,5 +1,5 @@
 
-import { Outlet } from 'react-router';
+import { Outlet, useLocation } from 'react-router';
 
 import Footer from './Footer';
 import NavigationBar from './NavigationBar';
@@ -7,16 +7,21 @@ import Banner from './Banner';
 
 const MainLayout = () => {
 
+          const location = useLocation().pathname === '/';
+          // console.log(location.pathname === '/')
+
     return (
         <div>
 
-          <header className='heroSection container mx-auto'>
+         {
+          location ?  <header className='heroSection  container mx-auto'>
               <NavigationBar/>
               <Banner/>
-          </header>
+          </header> : <NavigationBar/>
+         }
 
 
-            <main className='bg-[#eef4ff]'> <Outlet/> </main>
+            <main className='bg-[#eef4ff] container mx-auto'> <Outlet/> </main>
             
 
           <footer>   <Footer/> </footer>

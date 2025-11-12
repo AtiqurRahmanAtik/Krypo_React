@@ -28,12 +28,13 @@ const BlockChainService = () => {
 
 
     return (
-        <div className="container mx-auto bg-white py-16 rounded-2xl ">
+        <div className="max-w-[540px] lg:container mx-auto bg-white  py-16 rounded-2xl ">
             <div className="flex gap-16 ">
 
 
-                <div className="ml-16 lg:relative">
-     <h2 class="text-4xl font-semibold text-black">Our Blockchain Solutions</h2>
+ <div className="ml-16 lg:relative">
+     <h2 class="text-4xl mt-22 font-semibold text-black">Our Blockchain Solutions</h2>
+
     <p class="mt-2 text-sm ">We provide cutting-edge blockchain solutions to help businesses innovate and thrive in the digital age.</p>
 
         
@@ -48,7 +49,7 @@ const BlockChainService = () => {
     </div>
 
 
-    <div class="lg:absolute lg:-bottom-50 lg:-left-10">
+    <div class="lg:absolute lg:-bottom-60 lg:-left-10">
             <img  src="./Assets/blockchain_10439415.png" alt="blockchain"/>
         </div>
 
