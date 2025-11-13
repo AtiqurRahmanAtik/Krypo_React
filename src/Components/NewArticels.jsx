@@ -4,10 +4,10 @@ const NewArticels = () => {
 
 
     return (
-        <div className="max-w-[540px] p-8 mt-16 mx-auto lg:max-w-[75%] bg-[url('/Assets/Frame%20001.png')] bg-cover bg-center bg-no-repeat py-16 rounded-2xl">
+        <div className="max-w-[540px] p-8 mt-16 mx-auto lg:max-w-[75%] bg-[url('/Assets/brain1.jpg')] bg-cover bg-center bg-no-repeat py-16 rounded-2xl">
             
 
-                   <h1 class="text-3xl font-bold text-black lg:ml-22">News And Articles</h1>
+                   <h1 class="text-3xl font-bold text-black lg:ml-8">News And Articles</h1>
 
               <div class="space-y-2 lg:flex gap-4 justify-center mt-8 ">
                 {/* <!-- leftArticles --> */}

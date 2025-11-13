@@ -40,7 +40,7 @@ const OurCommunity = () => {
                 <button className="s1 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Facebook</button>
             </div>
 
-            <div className='absolute top-62 right-6 lg:left-144 rotate-25'>
+            <div className='absolute top-62 right-6 lg:top-88 lg:left-144 rotate-25'>
                 <button className="s2 lg:min-w-40 border border-[#161af2] py-2 bg-black text-white rounded-2xl">Instragram</button>
             </div>
 
@@ -74,7 +74,7 @@ const OurCommunity = () => {
       </h1>
 
 
-      <div className="lg:flex gap-10  justify-center  ">
+      <div className="lg:flex gap-10  justify-center mt-10 ">
 
 
     {/* left */}
@@ -148,26 +148,26 @@ const OurCommunity = () => {
 
 
 
-            <h1 className="text-white ml-4 sm:ml-0  text-xl font-semibold mt-8">What Happens the next depends on what you're looking to do !</h1>
+            <h1 className="text-white ml-10 lg:ml-4 sm:ml-0  text-xl font-semibold mt-8">What Happens the next depends on what you're looking to do !</h1>
 
 
 
             <div className="Parent py-10 lg:py-0 relative space-y-6  lg:pl-8 lg:border-l border-white mt-16">
 
                 <div className='ml-20 lg:ml-0'>
-                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold absolute left-4 lg:-top-8 lg:-left-4 z-10">01</p>
+                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold absolute left-8 lg:-top-8 lg:-left-4 z-10">01</p>
 
                     <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
                 </div>
 
                 <div className='ml-20 lg:ml-0'>
-                    <p className="border border-white lg:bg-[#7e61ff] rounded-full min-w-8 text-center text-white p-1 font-semibold absolute left-4 lg:top-14 lg:-left-4 ">02</p>
+                    <p className="border border-white lg:bg-[#7e61ff] rounded-full min-w-8 text-center text-white p-1 font-semibold absolute left-8 lg:top-14 lg:-left-4 ">02</p>
 
                     <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
                 </div>
 
                 <div className='ml-20 lg:ml-0'>
-                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold  absolute left-4 lg:top-42 lg:-left-4">03</p>
+                    <p className="border border-white rounded-full min-w-8 text-center text-white p-1 font-semibold  absolute left-8 lg:top-42 lg:-left-4">03</p>
 
                     <p className='text-white text-sm'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
                 </div>

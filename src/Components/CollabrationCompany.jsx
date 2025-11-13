@@ -66,7 +66,7 @@ const CollabrationCompany = () => {
 
         <div className="lg:max-w-[920px] mx-auto ">
 
-  <h1 class="text-3xl font-bold text-black text-center my-20"> Collaboration with Other Companies</h1>
+  <h1 class="text-3xl font-bold text-black text-center my-10"> Collaboration with Other Companies</h1>
 
             <div className="lg:ml-20 grid gap-2 grid-cols-3 md:grid-cols-3 lg:grid-cols-5">
                 {

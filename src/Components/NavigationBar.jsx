@@ -8,7 +8,7 @@ const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="max-w-[540px] lg:container mx-auto mt-4 px-4 py-3 
+    <div className="max-w-[540px]  lg:max-w-[1160px] mx-auto mt-4 px-4 py-3 
              rounded-full border border-[#161AF2] 
              bg-[rgba(255,255,255,0.2)] 
              backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
@@ -71,7 +71,7 @@ const NavigationBar = () => {
             <FaPlay className="rotate-90"></FaPlay>
           </div>
 
-          <button className="py-2 px-4 bg-[#161AF2] text-white rounded-lg hover:bg-[#0d0fa7] transition">
+          <button className="py-1 px-4 bg-[#161AF2] text-white rounded-lg hover:bg-[#0d0fa7] transition">
             Get a Quote
           </button>
         </div>

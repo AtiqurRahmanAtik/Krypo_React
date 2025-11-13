@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const JoinKrypo = () => {
 
@@ -22,10 +22,14 @@ const JoinKrypo = () => {
 
 
             {/* right */}
-               <div class="KrypoRight text-2xl font-semibold text-black min-w-96 min-h-40  rounded-2xl  bg-[linear-gradient(90deg,rgba(22,26,242,1)_0%,rgba(126,97,255,1)_43%,rgba(187,205,237,1)_80%)]">
+               <div class="relative text-2xl font-semibold text-black min-w-[420px] min-h-40  rounded-2xl  bg-[linear-gradient(90deg,rgba(22,26,242,1)_0%,rgba(126,97,255,1)_43%,rgba(187,205,237,1)_80%)]">
 
-                <h1 class="roboto_bold text-white mt-12 ml-6">Join Krypo Newsller</h1>
-                <input className='ml-6 p-2 bg-white text-lg font-normal min-w-[340px]' type="text" name="name" id="name" placeholder="Your Email Address"/>
+                <h1 class="roboto_bold text-white mt-12 ml-6 ">Join Krypo Newsller</h1>
+
+                <input className='ml-6 mt-10 lg:mt-0 p-2 rounded-xl bg-white text-lg font-normal min-w-[340px]' type="text" name="name" id="name" placeholder="Your Email Address"/>
+
+
+                <button className='bg-black text-sm font-normal max-w-32 px-6 py-3  text-white  rounded-xl  absolute right-28 bottom-11 lg:right-4 lg:bottom-9'> Subtribe</button>
             </div>
 
                 </div>

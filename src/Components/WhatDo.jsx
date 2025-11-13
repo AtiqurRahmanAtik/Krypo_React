@@ -9,19 +9,19 @@ const WhatDo = () => {
             id:1,
             title : "UX review presentations",
             describe : "How do you create compelling presentations that wow ,your colleagues and impress your managers?",
-            img : "/public/Assets/Image_1.png"
+            img : "/public/Assets/Image_1-removebg-preview.png"
         },
           {
             id:2,
             title : "UX review presentations",
             describe : "How do you create compelling presentations that wow ,your colleagues and impress your managers?",
-            img : "/public/Assets/Image_1.png"
+            img : "/public/Assets/Image_1-removebg-preview.png"
         },
           {
             id:3,
             title : "UX review presentations",
             describe : "How do you create compelling presentations that wow ,your colleagues and impress your managers?",
-            img : "/public/Assets/Image_1.png"
+            img : "/public/Assets/Image_1-removebg-preview.png"
         }
     ];
 

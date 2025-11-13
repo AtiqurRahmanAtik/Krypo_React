@@ -10,7 +10,7 @@ const SingleWhat = ({item}) => {
                 <div  className="card bg-base-100 lg:w-72 shadow-sm">
   <figure>
     <img
-    className='p-4'
+    className='p-4 '
       src={img}
       alt="Shoes" />
   </figure>

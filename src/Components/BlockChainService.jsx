@@ -9,26 +9,26 @@ const BlockChainService = () => {
             id:1,
             title : "UX review presentations",
             describe : "How do you create compelling presentations that wow ,your colleagues and impress your managers?",
-            img : "/public/Assets/Image_1.png"
+            img : "/public/Assets/Image_1-removebg-preview.png"
         },
           {
             id:2,
             title : "UX review presentations",
             describe : "How do you create compelling presentations that wow ,your colleagues and impress your managers?",
-            img : "/public/Assets/Image_1.png"
+            img : "/public/Assets/Image_1-removebg-preview.png"
         },
           {
             id:3,
             title : "UX review presentations",
             describe : "How do you create compelling presentations that wow ,your colleagues and impress your managers?",
-            img : "/public/Assets/Image_1.png"
+            img : "/public/Assets/Image_1-removebg-preview.png"
         }
     ];
 
 
 
     return (
-        <div className="max-w-[540px] lg:container mx-auto bg-white  py-16 rounded-2xl ">
+        <div className="max-w-[540px] lg:max-w-[1160px]  mx-auto bg-white  py-16 rounded-2xl ">
             <div className="flex gap-16 ">
 
 
@@ -40,11 +40,11 @@ const BlockChainService = () => {
         
           <div class="flex gap-1 mt-6 ">
         <div className="lg:ml-46">
-            <img src="./Assets/Frame 32.png" alt="left"/>
+            <img className="border rounded-full" src="./Assets/Frame 32.png" alt="left"/>
         </div>
 
         <div>
-            <img src="./Assets/Frame 33.png" alt="right"/>
+            <img className="border rounded-full" src="./Assets/Frame 33.png" alt="right"/>
         </div>
     </div>
 
